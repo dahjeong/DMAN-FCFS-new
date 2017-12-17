@@ -22,15 +22,15 @@ void main() {
 		2. For single route only. 
 		3. Based on time unit - 0.1 second. 
 		4. 3 priority stretagies - Nominal, Arrival, Partial arrival priorities were added.
-		
 		5. Index column was added to the original flight schedule, which equals to the Index variable of Flight class.
-
 		6. FileWrite class - writing function for schedule result of departure/arrival only is added.
+		7. Earliest possible time concept has been changed to Earliest possible slot.
 	
 	<To-Do> 		
-		1. Dijkstra class for Route assignment
-		2. Change import file format -> flight knows only scheduled entry time and gate id.
-		3. Runway assignment
+		1. The offset must be deleted in the multiple scheduling. The constraint violations in the multiple process are allowed.
+		2. Dijkstra class for Route assignment
+		3. Change import file format -> flight knows only scheduled entry time and gate id.
+		4. Runway assignment
 */
 
 
