@@ -1,0 +1,31 @@
+* Final approach fix in nmi,,,,
+4,,,,
+* Runway occupancy times in seconds,,,,
+State/Category,L,M,H,J
+DEP,85,57,50,50
+ARR,80,52,45,45
+* Separation matrix for leading and trailing aircraft on the same runway in seconds,,,,
+#DEP_DEP,,,,
+Lead/Trail,L,M,H,J
+L,120,120,120,120
+M,180,120,120,120
+H,180,180,120,120
+J,180,180,120,120
+#DEP_ARR,,,,
+Lead/Trail,L,M,H,J
+L,120,120,120,120
+M,120,120,120,120
+H,120,120,120,120
+J,180,180,120,120
+#ARR_DEP,,,,
+Lead/Trail,L,M,H,J
+L,120,120,120,120
+M,120,120,120,120
+H,120,120,120,120
+J,180,180,120,120
+#ARR_ARR,,,,
+Lead/Trail,L,M,H,J
+L,180,120,120,120
+M,180,120,120,120
+H,180,120,120,120
+J,180,180,120,120

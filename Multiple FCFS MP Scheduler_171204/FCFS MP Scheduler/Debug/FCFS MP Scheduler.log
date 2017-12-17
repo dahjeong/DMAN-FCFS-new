@@ -1,0 +1,13 @@
+﻿  Scheduler.cpp
+d:\onedrive - inha.edu\programs\fcfs_renewal\fcfs mp scheduler_171117_multiple\fcfs mp scheduler\scheduler\scheduler.cpp(334): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Flights.cpp
+d:\onedrive - inha.edu\programs\fcfs_renewal\fcfs mp scheduler_171117_multiple\fcfs mp scheduler\flights\flights.cpp(90): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\onedrive - inha.edu\programs\fcfs_renewal\fcfs mp scheduler_171117_multiple\fcfs mp scheduler\flights\flights.cpp(133): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\onedrive - inha.edu\programs\fcfs_renewal\fcfs mp scheduler_171117_multiple\fcfs mp scheduler\flights\flights.cpp(163): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다...
+  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  FileWrite.cpp
+  FileRead.cpp
+  Main.cpp
+  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Programs\FCFS_Renewal\FCFS MP Scheduler_171117_multiple\Debug\FCFS MP Scheduler.exe
+  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Programs\FCFS_Renewal\FCFS MP Scheduler_171117_multiple\Debug\FCFS MP Scheduler.pdb (Full PDB)

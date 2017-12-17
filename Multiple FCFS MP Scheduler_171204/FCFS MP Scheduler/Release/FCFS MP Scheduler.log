@@ -1,0 +1,95 @@
+﻿  LatLon.cpp
+  CountList.cpp
+counts\CountList.cpp(15): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(132): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(141): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(155): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(182): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(209): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(224): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(241): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(247): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(302): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(309): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(321): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(347): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(373): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(389): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(405): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(410): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(441): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(482): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(519): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+counts\CountList.cpp(565): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Count.cpp
+  Scheduler.cpp
+scheduler\Scheduler.cpp(334): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Flights.cpp
+flights\Flights.cpp(90): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+flights\Flights.cpp(133): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+flights\Flights.cpp(163): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Flight.cpp
+  FileRead.cpp
+io\FileRead.cpp(45): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+io\FileRead.cpp(57): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+io\FileRead.cpp(101): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+io\FileRead.cpp(113): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+io\FileRead.cpp(403): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+io\FileRead.cpp(409): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  FileWrite.cpp
+io\FileWrite.cpp(116): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+io\FileWrite.cpp(125): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+io\FileWrite.cpp(134): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  Globals.cpp
+  Interval.cpp
+  Intervals.cpp
+intervals\Intervals.cpp(177): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+intervals\Intervals.cpp(180): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+intervals\Intervals.cpp(236): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+intervals\Intervals.cpp(239): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Links.cpp
+  Link.cpp
+  Main.cpp
+  Nodes.cpp
+  Node.cpp
+map\nodes\Node.cpp(138): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+map\nodes\Node.cpp(240): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+map\nodes\Node.cpp(298): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  Angle.cpp
+  Length.cpp
+  Time.cpp
+physicalProperty\Time.cpp(83): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+physicalProperty\Time.cpp(85): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Route.cpp
+flights\schedule\Route.cpp(64): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+flights\schedule\Route.cpp(142): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+flights\schedule\Route.cpp(246): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+flights\schedule\Route.cpp(268): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+flights\schedule\Route.cpp(272): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+flights\schedule\Route.cpp(329): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  컴파일하고 있습니다...
+  SeparationMinima.cpp
+scheduler\separationMinima\SeparationMinima.cpp(17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(46): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(75): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(79): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(129): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(138): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(142): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(162): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(171): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(175): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(195): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(204): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(208): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(228): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(237): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+scheduler\separationMinima\SeparationMinima.cpp(241): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  코드를 생성하고 있습니다.
+  3150 of 3155 functions (99.8%) were compiled, the rest were copied from previous compilation.
+    35 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Programs\FCFS_Renewal\FCFS MP Scheduler_171117_multiple\Release\FCFS MP Scheduler.exe
+  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Programs\FCFS_Renewal\FCFS MP Scheduler_171117_multiple\Release\FCFS MP Scheduler.pdb (Full PDB)
