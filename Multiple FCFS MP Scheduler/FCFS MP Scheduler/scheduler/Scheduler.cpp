@@ -87,10 +87,6 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 
 		idx = route.getPathSize() - 1;
 
-		if (f == 19) {
-			int A = 0;
-		}
-
 		/* Propagation steps */
 		if (forward == false && backward == false) {		// Forward propagation
 
