@@ -139,21 +139,6 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 
 						opens_node = Intervals::OPEN;
 
-						// for runway nodes
-						/*string temp = "_TEMP";
-						curPath.erase(curPath.find(temp), temp.length());
-
-						node = nodes.get(curPath);
-
-						if (nodes.get(curPath).getType().find("RWY") != string::npos) {
-
-							temp1 = node.getAvailableSlots2(index, state, wakeCategory, sepMinima);
-							temp2 = node.getAvailableSlots();
-							opens_node = temp1.intersectionSets2(temp2);
-						}
-
-						curPath = curPath + temp;*/
-						
 					} else {
 						
 						node = nodes.get(curPath);
