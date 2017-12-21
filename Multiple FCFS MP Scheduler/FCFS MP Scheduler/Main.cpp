@@ -23,6 +23,8 @@ void main() {
 		3. Based on time unit - 0.1 second. 
 		4. 3 priority stretagies - Nominal, Arrival, Partial arrival priorities were added.
 		5. Index column was added to the original flight schedule, which equals to the Index variable of Flight class.
+
+	<To-Do>
 		6. FileWrite class - writing function for schedule result of departure/arrival only is added.
 		7. Earliest possible time concept has been changed to Earliest possible slot.
 	
