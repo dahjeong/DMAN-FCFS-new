@@ -546,8 +546,27 @@ bool Intervals::exist(int n) {
 void Intervals::print() {
 
 	for (int i = 0; i < getSize(); i++) {
-
 		get(i).print();
 	}
 	printf("\n");
+}
+
+
+
+/* For feasible scheduling */
+Intervals Intervals::findLargerThen(int intervalSize) {
+
+	Intervals larges;
+	Interval interval;
+
+	for (int i = 0; i < getSize(); i++) {
+
+		interval = get(i);
+		
+		if (interval.getSize() >= intervalSize) {
+			larges.add(interval);
+		}
+	}
+
+	return larges;
 }
