@@ -24,9 +24,7 @@ void main() {
 		4. 3 priority stretagies - Nominal, Arrival, Partial arrival priorities were added.
 		5. Index column was added to the original flight schedule, which equals to the Index variable of Flight class.
 		6. FileWrite class - writing function for schedule result of departure/arrival only is added.
-
-	<Doing>
-		1. Earliest possible time concept has been changed to Earliest possible slot. -> Add function 'getLargerThen()' in Intervals class. 
+		7. Earliest possible time concept has been changed to Earliest possible slot. -> Function 'getLargerThen()' was added in Intervals class.
 
 	<To-Do> 		
 		1. The offset must be deleted in the multiple scheduling. The constraint violations in the multiple process are allowed.

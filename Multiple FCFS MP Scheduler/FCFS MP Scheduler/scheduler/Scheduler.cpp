@@ -154,7 +154,7 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 
 							opens_node = node.getAvailableSlots();
 
-							if (multiple ==  true && node.selfBlock(index)) {
+							if (multiple == true && node.selfBlock(index)) {
 								Time time = node.getTimeByIdx(index);
 								int rate = node.getPassRateN(time);
 								int block = (int)round((double)Time(1, Time::HOUR).get(Time::PSEC)/(double)rate + 0.5);
