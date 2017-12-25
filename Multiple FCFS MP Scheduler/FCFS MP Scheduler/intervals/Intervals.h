@@ -67,5 +67,8 @@ public:
 	bool	exist(int n);
 
 	void	print();
+
+	// for feasible scheduling
+	Intervals	findLargerThen(int intervalSize);
 };
 

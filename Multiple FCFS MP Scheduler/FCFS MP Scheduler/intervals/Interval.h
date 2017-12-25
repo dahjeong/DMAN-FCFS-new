@@ -23,6 +23,8 @@ public:
 	int	getBegin() const;
 	int	getEnd() const;
 
+	int getSize() const;
+
 	bool	equals(Interval newItv);
 
 	// opearations

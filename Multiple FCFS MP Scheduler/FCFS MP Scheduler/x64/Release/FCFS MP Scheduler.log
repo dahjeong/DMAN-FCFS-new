@@ -1,10 +1,33 @@
-﻿  Main.cpp
+﻿  LatLon.cpp
+  CountList.cpp
+  Count.cpp
+  Scheduler.cpp
+  Flights.cpp
   Flight.cpp
   FileRead.cpp
-  코드를 생성하고 있습니다.
-  48 of 2951 functions ( 1.6%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    34 functions had inline decision re-evaluated but remain unchanged
-  코드를 생성했습니다.
-  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Programs\FCFS_Renewal\Multiple FCFS MP Scheduler_171204\x64\Release\FCFS MP Scheduler.exe
-  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Programs\FCFS_Renewal\Multiple FCFS MP Scheduler_171204\x64\Release\FCFS MP Scheduler.pdb (Full PDB)
+  FileWrite.cpp
+io\FileWrite.cpp(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Globals.cpp
+  Interval.cpp
+  Intervals.cpp
+  Links.cpp
+  Link.cpp
+  Main.cpp
+  Nodes.cpp
+  Node.cpp
+  Angle.cpp
+  Length.cpp
+  Time.cpp
+physicalProperty\Time.cpp(63): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+physicalProperty\Time.cpp(67): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+physicalProperty\Time.cpp(71): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Route.cpp
+  Compiling...
+  SeparationMinima.cpp
+  Generating code
+  2951 of 2956 functions (99.8%) were compiled, the rest were copied from previous compilation.
+    37 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Release\FCFS MP Scheduler.exe
+  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Release\FCFS MP Scheduler.pdb (Full PDB)

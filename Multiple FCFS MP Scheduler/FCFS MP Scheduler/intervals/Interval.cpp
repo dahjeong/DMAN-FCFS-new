@@ -29,6 +29,11 @@ int Interval::getEnd() const {
 	return end;
 }
 
+
+int Interval::getSize() const {	// to get the interval size
+	return end - begin;
+}
+
 bool Interval::equals(Interval newItv) {
 
 	if (begin == newItv.getBegin() && end == newItv.getEnd()) {

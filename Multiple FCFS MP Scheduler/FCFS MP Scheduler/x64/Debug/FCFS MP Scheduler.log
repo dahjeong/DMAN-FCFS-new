@@ -1,6 +1,31 @@
-﻿  FileWrite.cpp
-d:\onedrive - inha.edu\programs\fcfs_renewal\multiple fcfs mp scheduler_171204\fcfs mp scheduler\io\filewrite.cpp(112): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  SeparationMinima.cpp
+  Route.cpp
+  Time.cpp
+d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(63): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(67): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(71): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Length.cpp
+  Angle.cpp
+  Node.cpp
+  Nodes.cpp
   Main.cpp
-  코드를 생성하고 있습니다...
-  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Programs\FCFS_Renewal\Multiple FCFS MP Scheduler_171204\x64\Debug\FCFS MP Scheduler.exe
-  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Programs\FCFS_Renewal\Multiple FCFS MP Scheduler_171204\x64\Debug\FCFS MP Scheduler.pdb (Full PDB)
+  Link.cpp
+  Links.cpp
+  Intervals.cpp
+  Interval.cpp
+  Globals.cpp
+  FileWrite.cpp
+d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\io\filewrite.cpp(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  FileRead.cpp
+  Flight.cpp
+  Flights.cpp
+  Scheduler.cpp
+  Count.cpp
+  CountList.cpp
+  Generating Code...
+  Compiling...
+  LatLon.cpp
+  Generating Code...
+  LINK : D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.exe not found or not built by the last incremental link; performing full link
+  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.exe
+  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.pdb (Full PDB)
