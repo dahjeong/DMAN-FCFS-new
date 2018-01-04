@@ -44,8 +44,8 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 	Time	entryBegin, entryEnd, 
 			exitBegin, exitEnd, 
 			transit1, transit2, 
-			earliestDep, earliestArr, 
-			newEntry, newExit, newTransit;
+			newEntry, newExit, newTransit,
+			earliestDeparture;
 
 	int idx = 0;
 	int dir_link = 0;
@@ -167,9 +167,7 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 
 					// 2017-12-21 //
 					possibles = possibles.findLargerThen(5);	// larger than 5 second interval
-
-					earliestArr = Time(possibles.getMin(), Time::PSEC);
-
+										
 					cabinet_F.pop_back();
 					cabinet_F.push_back(possibles);
 
@@ -273,8 +271,8 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 
 				if (p == 0) {
 					// end point				
-					entryBegin = earliestArr;
-					entryEnd = entryBegin;
+					entryBegin = Time(cabinet_F.back().getFirst().getBegin(), Time::PSEC);	
+					entryEnd = Time(cabinet_F.back().getFirst().getEnd(), Time::PSEC);		
 
 					possibles.add(Interval(entryBegin.get(Time::PSEC), entryEnd.get(Time::PSEC)));
 
@@ -282,7 +280,7 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 
 				} else if (p == idx) {
 					// start point
-					earliestDep = Time(cabinet_B.back().getMin(), Time::PSEC);
+					earliestDeparture = Time(cabinet_B.back().getMin(), Time::PSEC);
 
 				} else {
 
@@ -299,10 +297,6 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 										
 					exit = Interval(exitBegin.get(Time::PSEC), exitEnd.get(Time::PSEC));
 					entry = Interval(entryBegin.get(Time::PSEC), entryEnd.get(Time::PSEC));
-
-					if (p == 16) {
-						int A = 0;
-					}
 
 					possibles = cabinet_F.at(idx - p - 1).intersectionSet2(entry);
 
@@ -323,9 +317,9 @@ Flights Scheduler::first_come_first_served(const Flights& flights_original, bool
 		}
 
 		if (!scheduledRoute.empty()) {		
-			if (earliestDep.subtract(lastExit).get(Time::PSEC) > 0.0) {
+			if (earliestDeparture.subtract(lastExit).get(Time::PSEC) > 0.0) {
 				flight.setReset(true);
-				flight.setOffset(earliestDep.subtract(lastExit));
+				flight.setOffset(earliestDeparture.subtract(lastExit));
 			}
 		} 
 		

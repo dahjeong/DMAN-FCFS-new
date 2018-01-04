@@ -1,9 +1,9 @@
 ﻿  SeparationMinima.cpp
   Route.cpp
   Time.cpp
-d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(63): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(67): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
-d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(71): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+d:\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(63): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+d:\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(67): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+d:\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\physicalproperty\time.cpp(71): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
   Length.cpp
   Angle.cpp
   Node.cpp
@@ -15,7 +15,7 @@ d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp s
   Interval.cpp
   Globals.cpp
   FileWrite.cpp
-d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\io\filewrite.cpp(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp scheduler\io\filewrite.cpp(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   FileRead.cpp
   Flight.cpp
   Flights.cpp
@@ -26,6 +26,6 @@ d:\onedrive - inha.edu\github\dman-fcfs-new\multiple fcfs mp scheduler\fcfs mp s
   Compiling...
   LatLon.cpp
   Generating Code...
-  LINK : D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.exe not found or not built by the last incremental link; performing full link
-  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.exe
-  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.pdb (Full PDB)
+  LINK : D:\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.exe not found or not built by the last incremental link; performing full link
+  FCFS MP Scheduler.vcxproj -> D:\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.exe
+  FCFS MP Scheduler.vcxproj -> D:\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Debug\FCFS MP Scheduler.pdb (Full PDB)
