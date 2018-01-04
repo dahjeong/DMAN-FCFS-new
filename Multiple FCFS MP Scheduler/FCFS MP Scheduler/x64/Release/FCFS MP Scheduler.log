@@ -26,8 +26,8 @@ physicalProperty\Time.cpp(71): warning C4244: 'return': conversion from 'double'
   SeparationMinima.cpp
   Generating code
   2951 of 2956 functions (99.8%) were compiled, the rest were copied from previous compilation.
-    37 functions were new in current compilation
+    33 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Release\FCFS MP Scheduler.exe
-  FCFS MP Scheduler.vcxproj -> D:\OneDrive - inha.edu\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Release\FCFS MP Scheduler.pdb (Full PDB)
+  FCFS MP Scheduler.vcxproj -> D:\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Release\FCFS MP Scheduler.exe
+  FCFS MP Scheduler.vcxproj -> D:\Github\DMAN-FCFS-new\Multiple FCFS MP Scheduler\x64\Release\FCFS MP Scheduler.pdb (Full PDB)
